@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-sql",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "confgen": "npx confgen@latest base bump yarn typescript vite library:VitePluginSql bin prettier",
     "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist --skipLibCheck; mv dist/index.d.ts dist/index.umd.d.ts",
